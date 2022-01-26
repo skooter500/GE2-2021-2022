@@ -4,6 +4,8 @@
 
 ## Teams links for classes/labs:
 
+- [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjJjZmIxNDQtZjMyMi00MmY5LWJkZDctZWUxYmE0MTVmYTc0%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+
 ## Resources
 - [Assignment](ca.md)
 - [A build of Infinite Forms](https://drive.google.com/file/d/1w24BcMAi6P1XmPc9D9ss6Lkro4KBvsMS/view?usp=sharing)
@@ -40,6 +42,7 @@
 - No lab this week
 
 ## Lecture
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EfemBBy2hsNIv5BpPNtfjs0BGBaku7AHcH8YRpsPUbJaSw)
 - [Introduction slides](https://tudublin-my.sharepoint.com/:p:/g/personal/bryan_duggan_tudublin_ie/EVB8iHL_Cy1DvVT1BW5SSd8BiP7R3pY7lBQoMN8Tmq0isw?e=s1TB2n)
 - [Steering Behaviours Slides (a bit out of date)](https://drive.google.com/file/d/1nQeVLqhNY1JvAZQK_BgMxUoVr7w1VPUE/view?usp=sharing)
 - [Craig Reynolds original paper](https://www.red3d.com/cwr/papers/1999/gdc99steer.pdf)
