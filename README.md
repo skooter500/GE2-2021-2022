@@ -42,7 +42,8 @@
 - No lab this week
 
 ## Lecture
-- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EfemBBy2hsNIv5BpPNtfjs0BGBaku7AHcH8YRpsPUbJaSw)
+- [Recording of the Tuesday class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EfemBBy2hsNIv5BpPNtfjs0BGBaku7AHcH8YRpsPUbJaSw)
+
 - [Introduction slides](https://tudublin-my.sharepoint.com/:p:/g/personal/bryan_duggan_tudublin_ie/EVB8iHL_Cy1DvVT1BW5SSd8BiP7R3pY7lBQoMN8Tmq0isw?e=s1TB2n)
 - [Steering Behaviours Slides (a bit out of date)](https://drive.google.com/file/d/1nQeVLqhNY1JvAZQK_BgMxUoVr7w1VPUE/view?usp=sharing)
 - [Craig Reynolds original paper](https://www.red3d.com/cwr/papers/1999/gdc99steer.pdf)
