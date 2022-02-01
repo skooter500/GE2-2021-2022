@@ -1,6 +1,6 @@
 # Games Engines 2 Assignment
 
-The goal of this assignment is to recreate a classic space battle using the game AI techniques you are learning on the course. Your assignment should tell a story and as much as possible, the behaviours of the ships should be programmed rather than using any built in stuff in Unity. If you dont like sci-fi, then a nature simulation is also cool. Try and avoid Star Wars because it’s been done to death, but if you really want to do Star Wars, you can. I suggest you pick classic sci-fi such as any of the following:
+The goal of this assignment is to recreate a classic space battle using the game AI techniques you are learning on the course. Your assignment should tell a story and as much as possible, the behaviours of the ships should be programmed rather than using any built in stuff in Unity. If you dont like sci-fi, then a nature simulation is also cool. Try and avoid Star Wars because it’s been done many times, but if you really want to do Star Wars, you can. I suggest you pick classic sci-fi such as any of the following:
 
 - 2001 A Space Odyssey
 - Buck Rogers in the 25th Centuary
@@ -11,6 +11,10 @@ The goal of this assignment is to recreate a classic space battle using the game
 - Darkstar
 - The Last Starfighter
 - Battlestar Galactica
+
+Here is an example project from last year:
+
+https://github.com/C17326283/GE2-SpaceBattleAssignment
 
 Here are some previous assignments you can use for inspiration:
 
