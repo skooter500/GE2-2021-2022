@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BigBoid : MonoBehaviour
 {
+
     public Vector3 acceleration;
     public Vector3 velocity;
     public Vector3 force;
