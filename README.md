@@ -38,6 +38,10 @@
 
 ## Week 2
 
+## Lectures
+- [Tuesday  - Path Following](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EcpaiMOskndBoCt1WCmTqXMBKcgs9lgltEaB0tFroced8Q?e=tcDueS) 
+- [Wednesday - Physics](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ERq2JlsP7rtCkgCbPcqSI78BRKA8Pno97ZpWm0GzW-3Fvw?e=1kz5RD)
+
 ## Lab
 
 ### Path following
