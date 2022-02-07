@@ -38,6 +38,8 @@
 
 ## Week 3
 
+### Lab
+
 The implementation of BigBoid has been improved to implement "banking" - rotating around the local forward vector: 
 
 [![Video](http://img.youtube.com/vi/ofb9syLwAQc/0.jpg)](http://www.youtube.com/watch?v=ofb9syLwAQc)
