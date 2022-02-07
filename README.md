@@ -38,7 +38,7 @@
 
 ## Week 3
 
-## I have updated the BigBoid code in the repo to implement Banking as per this video:
+The BigBoid for BigBoid has been updated to implement "banking" - rotating around the local forward vector: 
 
 [![Video](http://img.youtube.com/vi/ofb9syLwAQc/0.jpg)](http://www.youtube.com/watch?v=ofb9syLwAQc)
 
@@ -46,9 +46,9 @@ The technique is discussed in Craig Reynolds papers. We will learn how it works 
 
 Also there are method prototypes for several other behaviours you can try to implement in today's lab:
 
-Arrive - Slow down as the boid reaches the target
-Pursue - Intercept the target's future position
-PlayerSteering - Take input from the Input system to steer the boid  
+- Arrive - Slow down as the boid reaches the target
+- Pursue - Intercept the target's future position
+- PlayerSteering - Take input from the Input system to steer the boid  
 
 I have 
 
