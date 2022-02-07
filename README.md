@@ -38,11 +38,11 @@
 
 ## Week 3
 
-The BigBoid for BigBoid has been updated to implement "banking" - rotating around the local forward vector: 
+The implementation of BigBoid has been improved to implement "banking" - rotating around the local forward vector: 
 
 [![Video](http://img.youtube.com/vi/ofb9syLwAQc/0.jpg)](http://www.youtube.com/watch?v=ofb9syLwAQc)
 
-The technique is discussed in Craig Reynolds papers. We will learn how it works in the class :-)
+The technique is discussed in Craig Reynolds papers. We will learn how it works in the class later :-)
 
 Also there are method prototypes for several other behaviours you can try to implement in today's lab:
 
@@ -50,7 +50,7 @@ Also there are method prototypes for several other behaviours you can try to imp
 - Pursue - Intercept the target's future position
 - PlayerSteering - Take input from the Input system to steer the boid  
 
-I have 
+Update your forks to get the code! 
 
 ## Week 2
 
