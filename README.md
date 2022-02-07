@@ -36,7 +36,21 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
+## Week 3
 
+## I have updated the BigBoid code in the repo to implement Banking as per this video:
+
+[![Video](http://img.youtube.com/vi/ofb9syLwAQc/0.jpg)](http://www.youtube.com/watch?v=ofb9syLwAQc)
+
+The technique is discussed in Craig Reynolds papers. We will learn how it works in the class :-)
+
+Also there are method prototypes for several other behaviours you can try to implement in today's lab:
+
+Arrive - Slow down as the boid reaches the target
+Pursue - Intercept the target's future position
+PlayerSteering - Take input from the Input system to steer the boid  
+
+I have 
 
 ## Week 2
 
