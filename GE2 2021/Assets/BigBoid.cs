@@ -81,6 +81,8 @@ public class BigBoid : MonoBehaviour
     public Vector3 PlayerSteering()
     {
         Vector3 force = Vector3.zero;
+        force += Input.GetAxis("Vertical") * transform.forward * steeringForce;
+        force += Input.GetAxis("Horizontal") * transform.right * steeringForce;
 
         // Put your code here!
         return force;
@@ -113,8 +115,12 @@ public class BigBoid : MonoBehaviour
 
     public Vector3 Arrive(Vector3 target)
     {
-       // Put your code here!
-       return Vector3.zero;
+       Vector3 toTarget = target - transform.position;
+       float dist = toTarget.magnitude;
+       float ramped = (dist / slowingDistance) * maxSpeed;
+       float clamped = Mathf.Min(ramped, maxSpeed);
+       Vector3 desired = clamped * (toTarget / dist);
+       return desired - velocity;
     }
 
     public Vector3 CalculateForce()
@@ -166,10 +172,8 @@ public class BigBoid : MonoBehaviour
         speed = velocity.magnitude;
         if (speed > 0)
         {
-            //transform.forward = velocity;
+            transform.forward = velocity;
 
-            Vector3 tempUp = Vector3.Lerp(transform.up, Vector3.up + (acceleration * banking), Time.deltaTime * 3.0f);
-            transform.LookAt(transform.position + velocity, tempUp);
             //velocity *= 0.9f;
 
             // Remove 10% of the velocity every second

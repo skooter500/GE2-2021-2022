@@ -36,7 +36,16 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
+## Week 4
+
+### Lab 
+- Work on last weeks lab!
+
 ## Week 3
+
+### Lectures
+- [Tuesday class - Physics](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EYLOqYUSkTBAkPOUZUo8j98BSueQVAOsXNrdOUhQPzELrA?e=FiIlJW)
+- [Wednesdday class - Arrive Steering behaviour](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ef8cVWYIlgZDoIXHJaUJoAYB9g_jO18r8Gs1DYr2BCbT-A?e=2bSAuJ)
 
 ### Lab
 
