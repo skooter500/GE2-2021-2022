@@ -36,12 +36,13 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
-## Week 4
+## Week 4 - Banking, PlayerSteering, Flee, Pursure, Offset Pursue, Refactoring
+
 
 ### Lab 
 - Work on last weeks lab!
 
-## Week 3
+## Week 3 - Physics, Arrive
 
 ### Lectures
 - [Tuesday class - Physics](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EYLOqYUSkTBAkPOUZUo8j98BSueQVAOsXNrdOUhQPzELrA?e=FiIlJW)
@@ -63,7 +64,7 @@ Also there are method prototypes for several other behaviours you can try to imp
 
 Update your forks to get the code! 
 
-## Week 2
+## Week 2 - Boids, Seek, Path Following
 
 ## Lectures
 - [Tuesday  - Path Following](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EcpaiMOskndBoCt1WCmTqXMBKcgs9lgltEaB0tFroced8Q?e=tcDueS) 
