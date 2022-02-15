@@ -728,7 +728,7 @@ MonoBehaviour:
   waypointDistance: 3
   banking: 0.1
   damping: 0.1
-  playerSteeringEnabled: 1
+  playerSteeringEnabled: 0
   steeringForce: 100
   pursueEnabled: 0
   pursueTarget: {fileID: 0}

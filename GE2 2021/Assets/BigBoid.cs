@@ -38,7 +38,7 @@ public class BigBoid : MonoBehaviour
     public bool pursueEnabled = false;
     public BigBoid pursueTarget;
 
-    public Vector3 pursueTargetPos;
+    public Vector3 pursueTargetPos; 
 
     public Vector3 Pursue(BigBoid pursueTarget)
     {
@@ -50,13 +50,13 @@ public class BigBoid : MonoBehaviour
     public void OnDrawGizmos()
     {
         Gizmos.color = Color.magenta;
-        Gizmos.DrawLine(transform.position, transform.position + velocity);
+        //Gizmos.DrawLine(transform.position, transform.position + velocity);
 
         Gizmos.color = Color.blue;
         Gizmos.DrawLine(transform.position, transform.position + acceleration);
 
         Gizmos.color = Color.red;
-        Gizmos.DrawLine(transform.position, transform.position + force * 10);
+        //Gizmos.DrawLine(transform.position, transform.position + force * 10);
 
         if (arriveEnabled)
         {
@@ -82,7 +82,12 @@ public class BigBoid : MonoBehaviour
     {
         Vector3 force = Vector3.zero;
         force += Input.GetAxis("Vertical") * transform.forward * steeringForce;
-        force += Input.GetAxis("Horizontal") * transform.right * steeringForce;
+
+        Vector3 projected = transform.right;
+        projected.y = 0;
+        projected.Normalize();
+
+        force += Input.GetAxis("Horizontal") * projected * steeringForce;
 
         // Put your code here!
         return force;
@@ -172,7 +177,9 @@ public class BigBoid : MonoBehaviour
         speed = velocity.magnitude;
         if (speed > 0)
         {
-            transform.forward = velocity;
+            //transform.forward = velocity;
+            Vector3 tempUp = Vector3.Lerp(transform.up, Vector3.up + (acceleration * banking), Time.deltaTime * 3.0f);
+            transform.LookAt(transform.position + velocity, tempUp);
 
             //velocity *= 0.9f;
 
