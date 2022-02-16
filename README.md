@@ -36,7 +36,9 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
-## Week 4 - Banking, PlayerSteering, Flee, Pursure, Offset Pursue, Refactoring
+## Week 4 - Banking, PlayerSteering, Pursure, Offset Pursue
+- [Recording of Tuesday's class - Arrive, Banking, PlayerSteering](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ef9lvU4Qr5RNp2hUScMT7roBSQhZ59N0xom_Uj0ad06ldg?e=4Z910F)
+- [Recording of Wednesday's class - Pursue](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EWNEs1_bTjJOsfO64a1NpZ0BTTE43a7MNnfTJ_X7zd7sXQ?e=h2fHZh)
 
 
 ### Lab 
