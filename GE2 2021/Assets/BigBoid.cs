@@ -42,8 +42,11 @@ public class BigBoid : MonoBehaviour
 
     public Vector3 Pursue(BigBoid pursueTarget)
     {
-        // Put your code here!
-        return Vector3.zero;
+        float dist = Vector3.Distance(pursueTarget.transform.position, transform.position);
+        float time = dist / maxSpeed;
+        pursueTargetPos = pursueTarget.transform.position 
+                    + pursueTarget.velocity * time;
+        return Seek(pursueTargetPos);
     }
 
 
@@ -64,7 +67,7 @@ public class BigBoid : MonoBehaviour
             Gizmos.DrawWireSphere(arriveTargetTransform.position, slowingDistance);
         }
 
-        if (pursueEnabled)
+        if (pursueEnabled && Application.isPlaying)
         {
             Gizmos.color = Color.cyan;
             Gizmos.DrawLine(transform.position, pursueTargetPos);
