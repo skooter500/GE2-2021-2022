@@ -168,7 +168,7 @@ MonoBehaviour:
   arriveEnabled: 0
   arriveTargetTransform: {fileID: 0}
   arriveTarget: {x: 0, y: 0, z: 0}
-  slowingDistance: 80
+  slowingDistance: 5
   path: {fileID: 1491248566}
   pathFollowingEnabled: 0
   waypointDistance: 3
@@ -176,9 +176,12 @@ MonoBehaviour:
   damping: 0.1
   playerSteeringEnabled: 0
   steeringForce: 100
-  pursueEnabled: 1
+  pursueEnabled: 0
   pursueTarget: {fileID: 1661289992}
   pursueTargetPos: {x: 0, y: 0, z: 0}
+  offsetPursueEnabled: 1
+  leader: {fileID: 1661289992}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!65 &117105125
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -430,7 +433,7 @@ MonoBehaviour:
   arriveEnabled: 0
   arriveTargetTransform: {fileID: 0}
   arriveTarget: {x: 0, y: 0, z: 0}
-  slowingDistance: 80
+  slowingDistance: 5
   path: {fileID: 1491248566}
   pathFollowingEnabled: 0
   waypointDistance: 3
@@ -438,9 +441,12 @@ MonoBehaviour:
   damping: 0.1
   playerSteeringEnabled: 0
   steeringForce: 100
-  pursueEnabled: 1
+  pursueEnabled: 0
   pursueTarget: {fileID: 1661289992}
   pursueTargetPos: {x: 0, y: 0, z: 0}
+  offsetPursueEnabled: 1
+  leader: {fileID: 1661289992}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!65 &573333203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -564,7 +570,7 @@ MonoBehaviour:
   arriveEnabled: 0
   arriveTargetTransform: {fileID: 0}
   arriveTarget: {x: 0, y: 0, z: 0}
-  slowingDistance: 80
+  slowingDistance: 5
   path: {fileID: 1491248566}
   pathFollowingEnabled: 0
   waypointDistance: 3
@@ -572,9 +578,12 @@ MonoBehaviour:
   damping: 0.1
   playerSteeringEnabled: 0
   steeringForce: 100
-  pursueEnabled: 1
+  pursueEnabled: 0
   pursueTarget: {fileID: 1661289992}
   pursueTargetPos: {x: 0, y: 0, z: 0}
+  offsetPursueEnabled: 1
+  leader: {fileID: 1661289992}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!65 &604667585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -698,7 +707,7 @@ MonoBehaviour:
   arriveEnabled: 0
   arriveTargetTransform: {fileID: 0}
   arriveTarget: {x: 0, y: 0, z: 0}
-  slowingDistance: 80
+  slowingDistance: 5
   path: {fileID: 1491248566}
   pathFollowingEnabled: 0
   waypointDistance: 3
@@ -706,9 +715,12 @@ MonoBehaviour:
   damping: 0.1
   playerSteeringEnabled: 0
   steeringForce: 100
-  pursueEnabled: 1
+  pursueEnabled: 0
   pursueTarget: {fileID: 1661289992}
   pursueTargetPos: {x: 0, y: 0, z: 0}
+  offsetPursueEnabled: 1
+  leader: {fileID: 1661289992}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!65 &701383032
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1201,7 +1213,7 @@ MonoBehaviour:
   arriveEnabled: 0
   arriveTargetTransform: {fileID: 0}
   arriveTarget: {x: 0, y: 0, z: 0}
-  slowingDistance: 80
+  slowingDistance: 5
   path: {fileID: 1491248566}
   pathFollowingEnabled: 0
   waypointDistance: 3
@@ -1209,9 +1221,12 @@ MonoBehaviour:
   damping: 0.1
   playerSteeringEnabled: 0
   steeringForce: 100
-  pursueEnabled: 1
+  pursueEnabled: 0
   pursueTarget: {fileID: 1661289992}
   pursueTargetPos: {x: 0, y: 0, z: 0}
+  offsetPursueEnabled: 1
+  leader: {fileID: 1661289992}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!65 &1398924008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1403,6 +1418,9 @@ MonoBehaviour:
   pursueEnabled: 0
   pursueTarget: {fileID: 0}
   pursueTargetPos: {x: 0, y: 0, z: 0}
+  offsetPursueEnabled: 0
+  leader: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!65 &1661289993
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1557,7 +1575,7 @@ MonoBehaviour:
   arriveEnabled: 0
   arriveTargetTransform: {fileID: 0}
   arriveTarget: {x: 0, y: 0, z: 0}
-  slowingDistance: 80
+  slowingDistance: 5
   path: {fileID: 1491248566}
   pathFollowingEnabled: 0
   waypointDistance: 3
@@ -1565,9 +1583,12 @@ MonoBehaviour:
   damping: 0.1
   playerSteeringEnabled: 0
   steeringForce: 100
-  pursueEnabled: 1
+  pursueEnabled: 0
   pursueTarget: {fileID: 1661289992}
   pursueTargetPos: {x: 0, y: 0, z: 0}
+  offsetPursueEnabled: 1
+  leader: {fileID: 1661289992}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!65 &1775521869
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -40,6 +40,12 @@ public class BigBoid : MonoBehaviour
 
     public Vector3 pursueTargetPos; 
 
+    public bool offsetPursueEnabled = false;
+    public BigBoid leader;
+    public Vector3 offset;
+    private Vector3 worldTarget;
+    private Vector3 targetPos;
+
     public Vector3 Pursue(BigBoid pursueTarget)
     {
         float dist = Vector3.Distance(pursueTarget.transform.position, transform.position);
@@ -75,10 +81,23 @@ public class BigBoid : MonoBehaviour
 
     }
 
+    public Vector3 OffsetPursue(BigBoid leader)
+    {
+        worldTarget = leader.transform.TransformPoint(offset);
+        float dist = Vector3.Distance(transform.position, worldTarget);
+        float time = dist / maxSpeed;
+
+        targetPos = worldTarget + (leader.velocity * time);
+        return Arrive(targetPos);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (offsetPursueEnabled)
+        {
+            offset = transform.position - leader.transform.position;
+        }
     }
 
     public Vector3 PlayerSteering()
@@ -165,6 +184,11 @@ public class BigBoid : MonoBehaviour
         if (pursueEnabled)
         {
             f += Pursue(pursueTarget);
+        }
+
+        if (offsetPursueEnabled)
+        {
+            f += OffsetPursue(leader);
         }
 
         return f;
