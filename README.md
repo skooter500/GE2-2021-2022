@@ -36,17 +36,13 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
-## Week 5 - Refactoring, Offset Pursue
+## Week 5 - Offset Pursue, Refactoring
 
 You could use the lab class to work on your assignment - get 3D models imported and flying around or here is an exercise you can do that uses the pursue behaviour we worked on last week: 
 
 Update your fork of the course repo to get the Pursue code we wrote in the class last week.
 
-Create a new scene and make this predator prey simulation. The prey will follow a path until the predator comes into range. When the predator is is range the prey will attack the predator by shooting at it. It only shoots at the predator if it is inside the field of view. The predator will get close to the prey, but will flee from the prey if the prey attacks it. You can use colliders and then disable and enable certain behaviours to implement the simulation.
-
-[![YouTube](http://img.youtube.com/vi/SqThPN_ogJE/0.jpg)](https://www.youtube.com/watch?v=SqThPN_ogJE)
-
-To draw the "Lazers" you can use Debug.DrawLine from Update or you could use a LineRenderer
+Detect if the pursuer catches the target and also if the target goes out of range and print appropriate messages to the console. Use colliders for this. Try changing the maxSpeed for both boids and see what effect this has on the ability for the pursuer to reach the target boid.
 
 ## Week 4 - Banking, PlayerSteering, Pursure, Offset Pursue
 
