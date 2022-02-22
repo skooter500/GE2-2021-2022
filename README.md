@@ -40,7 +40,7 @@
 
 You could use the lab class to work on your assignment - get 3D models imported and flying around or here is an exercise you can do that uses the pursue behaviour we worked on last week: 
 
-Update your fork of the course repo to get the Pursue code we wrote in the class on Friday.
+Update your fork of the course repo to get the Pursue code we wrote in the class last week.
 
 Create a new scene and make this predator prey simulation. The prey will follow a path until the predator comes into range. When the predator is is range the prey will attack the predator by shooting at it. It only shoots at the predator if it is inside the field of view. The predator will get close to the prey, but will flee from the prey if the prey attacks it. You can use colliders and then disable and enable certain behaviours to implement the simulation.
 
@@ -48,8 +48,11 @@ Create a new scene and make this predator prey simulation. The prey will follow 
 
 To draw the "Lazers" you can use Debug.DrawLine from Update or you could use a LineRenderer
 
-
 ## Week 4 - Banking, PlayerSteering, Pursure, Offset Pursue
+
+- [Tuesday Class - Banking & Player Steering](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ef9lvU4Qr5RNp2hUScMT7roBSQhZ59N0xom_Uj0ad06ldg?e=IWa2nQ)
+- [Wednesday Class - Pursue](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EWNEs1_bTjJOsfO64a1NpZ0BTTE43a7MNnfTJ_X7zd7sXQ?e=cLLoQj)
+
 - [Recording of Tuesday's class - Arrive, Banking, PlayerSteering](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ef9lvU4Qr5RNp2hUScMT7roBSQhZ59N0xom_Uj0ad06ldg?e=4Z910F)
 - [Recording of Wednesday's class - Pursue](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EWNEs1_bTjJOsfO64a1NpZ0BTTE43a7MNnfTJ_X7zd7sXQ?e=h2fHZh)
 
