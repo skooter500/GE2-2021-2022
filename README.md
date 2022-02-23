@@ -38,6 +38,9 @@
 
 ## Week 5 - Offset Pursue, Refactoring
 
+- [Tuesday Class - Offset Pursue](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EVNg4DhVh0NBriV2xtO0Od8BN3TfMJ3OgDsJV9QzJy8KhQ?e=rTKvl1)
+- [Wednesday Class - More Offset Pursue](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EVY5nDzdxNFCqrpv4SB5HLcBNoBUnsb5EutGAsFWv8xsgg?e=xREtEa) 
+
 You could use the lab class to work on your assignment - get 3D models imported and flying around or here is an exercise you can do that uses the pursue behaviour we worked on last week: 
 
 Update your fork of the course repo to get the Pursue code we wrote in the class last week.
