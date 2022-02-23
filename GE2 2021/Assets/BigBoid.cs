@@ -83,7 +83,12 @@ public class BigBoid : MonoBehaviour
 
     public Vector3 OffsetPursue(BigBoid leader)
     {
-        worldTarget = leader.transform.TransformPoint(offset);
+        // This is a bug!!
+        //worldTarget = leader.transform.TransformPoint(offset);
+        worldTarget = (leader.transform.rotation * offset) 
+                + leader.transform.position;
+
+
         float dist = Vector3.Distance(transform.position, worldTarget);
         float time = dist / maxSpeed;
 
@@ -97,6 +102,7 @@ public class BigBoid : MonoBehaviour
         if (offsetPursueEnabled)
         {
             offset = transform.position - leader.transform.position;
+            offset = Quaternion.Inverse(leader.transform.rotation) * offset;
         }
     }
 
@@ -144,6 +150,10 @@ public class BigBoid : MonoBehaviour
     {
        Vector3 toTarget = target - transform.position;
        float dist = toTarget.magnitude;
+       if (dist == 0.0f)
+       {
+           return Vector3.zero;
+       }
        float ramped = (dist / slowingDistance) * maxSpeed;
        float clamped = Mathf.Min(ramped, maxSpeed);
        Vector3 desired = clamped * (toTarget / dist);
