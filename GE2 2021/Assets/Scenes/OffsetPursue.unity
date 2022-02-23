@@ -1409,7 +1409,7 @@ MonoBehaviour:
   arriveTarget: {x: 0, y: 0, z: 0}
   slowingDistance: 80
   path: {fileID: 1491248566}
-  pathFollowingEnabled: 1
+  pathFollowingEnabled: 0
   waypointDistance: 3
   banking: 0.1
   damping: 0.1
