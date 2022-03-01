@@ -36,6 +36,12 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
+## Week 6
+
+## Lab
+- [Try this lab test from 2019](https://github.com/skooter500/GE2-Lab-Test-2019)
+- [Submit your assignment](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUNzAyR1pVMjkwNThLUFdRWFk2SUFPQjFaOC4u)
+
 ## Week 5 - Offset Pursue, Refactoring
 
 - [Tuesday Class - Offset Pursue](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EVNg4DhVh0NBriV2xtO0Od8BN3TfMJ3OgDsJV9QzJy8KhQ?e=rTKvl1)
