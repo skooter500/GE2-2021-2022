@@ -37,6 +37,7 @@
 - End of year online test - 30%
 
 ## Week 6
+- [Wednesday Class - SOLID Principles](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EZgbMeI4JbhBsdy6EPt6NhwBB74x1Ohlk7ydzxOZhrmf0A?e=gSOklc)
 
 ## Lab
 - [Try this lab test from 2019](https://github.com/skooter500/GE2-Lab-Test-2019)
