@@ -36,7 +36,56 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
-## Week 2
+## Week 5 - Offset Pursue, Refactoring
+
+- [Tuesday Class - Offset Pursue](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EVNg4DhVh0NBriV2xtO0Od8BN3TfMJ3OgDsJV9QzJy8KhQ?e=rTKvl1)
+- [Wednesday Class - More Offset Pursue](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EVY5nDzdxNFCqrpv4SB5HLcBNoBUnsb5EutGAsFWv8xsgg?e=xREtEa) 
+
+You could use the lab class to work on your assignment - get 3D models imported and flying around or here is an exercise you can do that uses the pursue behaviour we worked on last week: 
+
+Update your fork of the course repo to get the Pursue code we wrote in the class last week.
+
+Detect if the pursuer catches the target and also if the target goes out of range and print appropriate messages to the console. Use colliders for this. Try changing the maxSpeed for both boids and see what effect this has on the ability for the pursuer to reach the target boid.
+
+## Week 4 - Banking, PlayerSteering, Pursure, Offset Pursue
+
+- [Tuesday Class - Banking & Player Steering](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ef9lvU4Qr5RNp2hUScMT7roBSQhZ59N0xom_Uj0ad06ldg?e=IWa2nQ)
+- [Wednesday Class - Pursue](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EWNEs1_bTjJOsfO64a1NpZ0BTTE43a7MNnfTJ_X7zd7sXQ?e=cLLoQj)
+
+- [Recording of Tuesday's class - Arrive, Banking, PlayerSteering](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ef9lvU4Qr5RNp2hUScMT7roBSQhZ59N0xom_Uj0ad06ldg?e=4Z910F)
+- [Recording of Wednesday's class - Pursue](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EWNEs1_bTjJOsfO64a1NpZ0BTTE43a7MNnfTJ_X7zd7sXQ?e=h2fHZh)
+
+
+### Lab 
+- Work on last weeks lab!
+
+## Week 3 - Physics, Arrive
+
+### Lectures
+- [Tuesday class - Physics](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EYLOqYUSkTBAkPOUZUo8j98BSueQVAOsXNrdOUhQPzELrA?e=FiIlJW)
+- [Wednesdday class - Arrive Steering behaviour](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ef8cVWYIlgZDoIXHJaUJoAYB9g_jO18r8Gs1DYr2BCbT-A?e=2bSAuJ)
+
+### Lab
+
+The implementation of BigBoid has been improved to implement "banking" - rotating around the local forward vector: 
+
+[![Video](http://img.youtube.com/vi/ofb9syLwAQc/0.jpg)](http://www.youtube.com/watch?v=ofb9syLwAQc)
+
+The technique is discussed in Craig Reynolds papers. We will learn how it works in the class later :-)
+
+Also there are method prototypes for several other behaviours you can try to implement in today's lab:
+
+- Arrive - Slow down as the boid reaches the target
+- Pursue - Intercept the target's future position
+- PlayerSteering - Take input from the Input system to steer the boid  
+
+Update your forks to get the code! 
+
+## Week 2 - Boids, Seek, Path Following
+
+## Lectures
+- [Tuesday  - Path Following](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EcpaiMOskndBoCt1WCmTqXMBKcgs9lgltEaB0tFroced8Q?e=tcDueS) 
+- [Wednesday - Physics](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ERq2JlsP7rtCkgCbPcqSI78BRKA8Pno97ZpWm0GzW-3Fvw?e=1kz5RD)
 
 ## Lab
 
