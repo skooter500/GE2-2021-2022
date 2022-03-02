@@ -37,7 +37,9 @@
 - End of year online test - 30%
 
 ## Week 6
-- [Wednesday Class - SOLID Principles](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EZgbMeI4JbhBsdy6EPt6NhwBB74x1Ohlk7ydzxOZhrmf0A?e=gSOklc)
+- [Tuesday Class - SOLID Principles](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EZgbMeI4JbhBsdy6EPt6NhwBB74x1Ohlk7ydzxOZhrmf0A?e=gSOklc)
+- [Wednesday Class - WPTRS](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EUdZJZxfthVGlkSdDRQA55gB0rOwJRTHoPOqWSJkQ7KksA?e=QngqAX)
+- [Combining steering behaviours](https://alastaira.wordpress.com/2013/03/13/methods-for-combining-autonomous-steering-behaviours/)
 
 ## Lab
 - [Try this lab test from 2019](https://github.com/skooter500/GE2-Lab-Test-2019)
