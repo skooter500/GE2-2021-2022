@@ -36,6 +36,25 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
+## Week 7
+
+### Lab
+I put the code for all the steering behaviours in seperate classes into the repo. There are the following Steering Behaviours:
+
+- Seek
+- Arrive
+- Pursue
+- Offset Pursue
+- Flee
+- Obstacle Avoidance
+- Jitter Wander
+- Noise Wander
+- Harmonic
+
+There is also a scene called Components that shows how to add the behaviours to a Boid
+
+In todays lab, you can try and attach some of these behaviours to the Boids in your assignment
+
 ## Week 6
 - [Tuesday Class - SOLID Principles](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EZgbMeI4JbhBsdy6EPt6NhwBB74x1Ohlk7ydzxOZhrmf0A?e=gSOklc)
 - [Wednesday Class - WPTRS](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EUdZJZxfthVGlkSdDRQA55gB0rOwJRTHoPOqWSJkQ7KksA?e=QngqAX)
