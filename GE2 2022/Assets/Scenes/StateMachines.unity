@@ -988,11 +988,11 @@ GameObject:
   - component: {fileID: 1206003803}
   - component: {fileID: 1206003802}
   - component: {fileID: 1206003801}
-  - component: {fileID: 1206003800}
   - component: {fileID: 1206003799}
   - component: {fileID: 1206003798}
   - component: {fileID: 1206003797}
   - component: {fileID: 1206003804}
+  - component: {fileID: 1206003805}
   m_Layer: 0
   m_Name: prey
   m_TagString: Untagged
@@ -1128,18 +1128,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updatesPerSecond: 5
---- !u!114 &1206003800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206003791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7536691ee5afcec44ab1fa4ced31ecca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1206003801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1212,6 +1200,18 @@ MonoBehaviour:
   boid: {fileID: 0}
   targetGameObject: {fileID: 0}
   target: {x: 0, y: 0, z: 0}
+--- !u!114 &1206003805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206003791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64becbab945640d48a4a1e63393c2cc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1283289257
 GameObject:
   m_ObjectHideFlags: 0
