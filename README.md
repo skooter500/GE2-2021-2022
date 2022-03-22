@@ -39,7 +39,7 @@
 ## Week 8
 ## Lab
 
-- You can find the Finite State Machine code in this repo from last year 
+You can find the Finite State Machine code in repo! Check it out and see if you can incorporate it into your assignment 
 
 ## Week 7
 - [Slides about FSM's](https://tudublin-my.sharepoint.com/:p:/g/personal/bryan_duggan_tudublin_ie/EZeIQO50Y0FAvG3xQrAmuYIBamLVqbMGNQohhxwwnD64MA?e=kBf15L)
