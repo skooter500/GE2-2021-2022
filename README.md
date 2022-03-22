@@ -36,7 +36,16 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
+## Week 8
+## Lab
+
+- You can find the Finite State Machine code in this repo from last year 
+
 ## Week 7
+- [Slides about FSM's](https://tudublin-my.sharepoint.com/:p:/g/personal/bryan_duggan_tudublin_ie/EZeIQO50Y0FAvG3xQrAmuYIBamLVqbMGNQohhxwwnD64MA?e=kBf15L)
+- [Tuesday Class - Finite State Machines](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EQ28znAiANdEh07bdKBafsQBpCsgZ26pssl4kUYdxx7_UA?e=cPFjpg)
+- [Wednesday Class - Finite State Machine Design Pattern](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EUaae4M6jwtJqg8obHoEJgUB2srzxTWSPgKJf3dzBOjorA?e=Nm84rj)
+
 
 ### Lab
 I put the code for all the steering behaviours in seperate classes into the repo. There are the following Steering Behaviours:
