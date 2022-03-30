@@ -36,8 +36,22 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
+## Week 10 - ECS - Perlin Noise Voxel Terrain
+- [Tuesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EY8PqhkjMTBOlskEMGisvf0BMO7L2EbiubV6SiBEb8s2CA?e=99rAcx)
+- [Wednesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ESpjH6aLwV9CiMfqH95R1RgB59CgIloCQKQIvat4EHPYng?e=tn8hzU)
+
+## Week 9 - Review Week
+
+## Week 8
+## Lab
+
+You can find the Finite State Machine code in repo! Check it out and see if you can incorporate it into your assignment 
+
 ## Week 7
-- [Tuesday Class - Components & FSM's](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EQ28znAiANdEh07bdKBafsQBpCsgZ26pssl4kUYdxx7_UA?e=YMxoMr)
+- [Tuesday Class - Finite State Machines](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EQ28znAiANdEh07bdKBafsQBpCsgZ26pssl4kUYdxx7_UA?e=cPFjpg)
+- [Wednesday Class - Finite State Machine Design Pattern](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EUaae4M6jwtJqg8obHoEJgUB2srzxTWSPgKJf3dzBOjorA?e=Nm84rj)
+- [Slides about FSM's](https://tudublin-my.sharepoint.com/:p:/g/personal/bryan_duggan_tudublin_ie/EZeIQO50Y0FAvG3xQrAmuYIBamLVqbMGNQohhxwwnD64MA?e=kBf15L)
+
 
 ### Lab
 I put the code for all the steering behaviours in seperate classes into the repo. There are the following Steering Behaviours:
