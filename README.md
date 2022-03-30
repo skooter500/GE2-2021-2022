@@ -37,6 +37,7 @@
 - End of year online test - 30%
 
 ## Week 7
+- [Tuesday Class - Components & FSM's](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EQ28znAiANdEh07bdKBafsQBpCsgZ26pssl4kUYdxx7_UA?e=YMxoMr)
 
 ### Lab
 I put the code for all the steering behaviours in seperate classes into the repo. There are the following Steering Behaviours:
