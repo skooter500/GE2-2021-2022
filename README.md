@@ -40,9 +40,12 @@
 - [Tuesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EY8PqhkjMTBOlskEMGisvf0BMO7L2EbiubV6SiBEb8s2CA?e=99rAcx)
 - [Wednesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ESpjH6aLwV9CiMfqH95R1RgB59CgIloCQKQIvat4EHPYng?e=tn8hzU)
 
-## Week 9 - Review Week
+## Week 9 - ECS - Introduction
+- No Recording of Tuesday Class :-(
+- [Wednesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EXXB0BqVyWlJt1AvccQCrqcBKAjib2PcwQRQs64BsToQkA?e=y9VDJ8)
+- [Slides about ECS](https://tudublin-my.sharepoint.com/:p:/g/personal/bryan_duggan_tudublin_ie/Eer4jfOpwlVFrD5tCY8MmacB8wxGtg7fubOzOJz7aOBwTQ?e=rIPSPH)
 
-## Week 8
+## Week 8 - Review Week
 ## Lab
 
 You can find the Finite State Machine code in repo! Check it out and see if you can incorporate it into your assignment 
