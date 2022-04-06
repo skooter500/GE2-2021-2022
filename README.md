@@ -36,6 +36,23 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
+## Week 11 - ECS Creational Strategies - Psytrance Spiral generator
+
+- When are the entities created?
+- How do the entities get the mesh assigned?
+- What is the purpose of ParticleController and ParticleSystem?
+- What components does entity have and what is their purpose?
+- How does an entity get components?
+- Why does the onUpdate method copy fields into local variables?
+- What is a NativeArray? Why not use a normal array?
+- What does ref mean?
+- What is the difference between scale and NonUniformScale?
+- What does WithNativeDisableParallelForRestriction mean?
+- What is the difference between Schedule and ScheduleParalell?
+- What is the purpose of the entityInQueryIndex parameter?
+- What is a lambda?
+- Why does the function use math.cos instead of Math.Cos?
+
 ## Week 10 - ECS - Perlin Noise Voxel Terrain
 - [Tuesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EY8PqhkjMTBOlskEMGisvf0BMO7L2EbiubV6SiBEb8s2CA?e=99rAcx)
 - [Wednesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ESpjH6aLwV9CiMfqH95R1RgB59CgIloCQKQIvat4EHPYng?e=tn8hzU)
