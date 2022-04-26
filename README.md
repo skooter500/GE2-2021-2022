@@ -36,6 +36,21 @@
 - Week 13 - CA Submission - 50%
 - End of year online test - 30%
 
+## Week 12 - Obstacle Avoidance & Lab Test
+- Check out Avoidance scene
+- How are the feelers calculated?
+- What direction do they point?
+- How many are there? Whys this number?
+- How does the behaviour handle holes in the colliders?
+- Does the speed of the boid matter?
+- What direction is the force generated?
+- WHat alternatives are there to this?
+- How does the behaviour avoid certain obstacles while ignoring others?
+- How often are the feelers calculated and why?
+- How does the behaviour take priority over other behaviours?
+- How would you improve the behaviour?
+- How does it improve on Craig Reynolds avoidance behaviours?
+
 ## Week 11 - ECS Creational Strategies - Psytrance Spiral generator
 
 - When are the entities created?
