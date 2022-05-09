@@ -37,6 +37,11 @@
 - End of year online test - 30%
 
 ## Week 12 - Obstacle Avoidance & Lab Test & ECS Boids
+
+- [Tuesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EWarYji5dOJErxvCJhKavNYBvo5xC2JJMOYWsYLRgC9h9A?e=tgWJkl)
+- [Wednesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EW6x38EKTgBEs6tCXdtzQA8BNSJbOkm--EZ2wfLDZDIFuA?e=CNy10n)
+
+
 - Check out Avoidance scene
 - How are the feelers calculated?
 - What direction do they point?
@@ -87,6 +92,9 @@ Have a look at the PureECSScene in [this repo](http://github.com/skooter500/ECS2
 22. How does the Head Animation work? Draw a diagram. What Unity API call is this system similar to?
 
 ## Week 11 - ECS Creational Strategies - Psytrance Spiral generator
+
+- [Tuesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EawdDWKwXM9Knk5zb_u9oQABfH3xew7r0DYoHR0t73nAFw?e=FI7tgj)
+- [Wednesday Class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ESi5d9ZpY_ZPle9gnfh0mB4BhGfXBE41duwf8kF7JbzieA?e=tICXwI)
 
 - When are the entities created?
 - How do the entities get the mesh assigned?
