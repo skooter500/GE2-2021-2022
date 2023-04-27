@@ -34,12 +34,14 @@ public class Boid : MonoBehaviour
     {
 
         SteeringBehaviour[] behaviours = GetComponents<SteeringBehaviour>();
-         initialY = transform.position.y;
+        initialY = transform.position.y;
 
         foreach (SteeringBehaviour b in behaviours)
         {
-            this.behaviours.Add(b);            
+            this.behaviours.Add(b);
         }
+        // Add the Seek behavior
+        this.behaviours.Add(GetComponent<Seek>());
     }
 
     public Vector3 SeekForce(Vector3 target)
@@ -50,7 +52,7 @@ public class Boid : MonoBehaviour
         return desired - velocity;
     }
 
-    public Vector3 ArriveForce(Vector3 target, float slowingDistance = 10.0f,float  decelleration = 3)
+    public Vector3 ArriveForce(Vector3 target, float slowingDistance = 10.0f, float decelleration = 3)
     {
         Vector3 toTarget = target - transform.position;
 
@@ -64,11 +66,11 @@ public class Boid : MonoBehaviour
         {
             desired = maxSpeed * (toTarget / distance);
             decelleration = 1;
-        }    
+        }
 
         return desired - velocity * decelleration;
     }
-    
+
 
     Vector3 Calculate()
     {
@@ -80,7 +82,7 @@ public class Boid : MonoBehaviour
         // 3. Truncated
         // 4. Running sum
 
-        foreach(SteeringBehaviour b in behaviours)
+        foreach (SteeringBehaviour b in behaviours)
         {
             if (b.isActiveAndEnabled)
             {
@@ -94,7 +96,7 @@ public class Boid : MonoBehaviour
             }
         }
 
-        
+
 
         return force;
     }

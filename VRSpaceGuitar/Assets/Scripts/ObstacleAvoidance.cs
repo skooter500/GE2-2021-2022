@@ -1,11 +1,11 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
 
 public class ObstacleAvoidance : SteeringBehaviour
 {
+    public string excludedTag = "Food";
     public float scale = 4.0f;
     public float forwardFeelerDepth = 30;
     public float sideFeelerDepth = 15;
@@ -81,10 +81,8 @@ public class ObstacleAvoidance : SteeringBehaviour
         RaycastHit info;
         bool collided = Physics.SphereCast(transform.position, feelerRadius, direction, out info, depth, mask.value);
         Vector3 feelerEnd = collided ? info.point : (transform.position + direction * depth);
-        feelers[feelerNum] = new FeelerInfo(feelerEnd, info.normal
-            , collided, feelerType);
+        feelers[feelerNum] = new FeelerInfo(feelerEnd, info.normal, info.collider, collided, feelerType);
     }
-
     System.Collections.IEnumerator UpdateFrontFeelers()
     {
         yield return new WaitForSeconds(Random.Range(0.0f, 0.5f));
@@ -119,6 +117,11 @@ public class ObstacleAvoidance : SteeringBehaviour
     {
         Vector3 force = Vector3.zero;
 
+        if (info.collider != null && info.collider.CompareTag(excludedTag))
+        {
+            return force; // Return zero force if the collided object has the excluded tag
+        }
+
         Vector3 fromTarget = fromTarget = transform.position - info.point;
         float dist = Vector3.Distance(transform.position, info.point);
 
@@ -145,6 +148,7 @@ public class ObstacleAvoidance : SteeringBehaviour
     {
         public Vector3 point;
         public Vector3 normal;
+        public Collider collider;
         public bool collided;
         public FeeelerType feelerType;
 
@@ -154,10 +158,11 @@ public class ObstacleAvoidance : SteeringBehaviour
             side
         };
 
-        public FeelerInfo(Vector3 point, Vector3 normal, bool collided, FeeelerType feelerType)
+        public FeelerInfo(Vector3 point, Vector3 normal, Collider collider, bool collided, FeeelerType feelerType)
         {
             this.point = point;
             this.normal = normal;
+            this.collider = collider;
             this.collided = collided;
             this.feelerType = feelerType;
         }

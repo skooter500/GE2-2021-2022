@@ -10,40 +10,50 @@ public class Wander : SteeringBehaviour
     public float wanderForce = 1f;
 
     private Vector3 wanderTarget;
+    public Seek seek;
+    public ObstacleAvoidance obstacleAvoidance;
 
     void Start()
     {
         wanderTarget = Random.insideUnitSphere * circleRadius;
+        seek = GetComponent<Seek>();
+        obstacleAvoidance = GetComponent<ObstacleAvoidance>();
     }
 
     public override Vector3 Calculate()
     {
-        Vector3 circleCenter = boid.velocity.normalized * circleDistance;
-        circleCenter.y = 0; // Restrict the Y axis
+        Vector3 force = Vector3.zero;
 
-        wanderTarget += new Vector3(
-            Random.Range(-1f, 1f) * wanderJitter,
-            0, // Restrict the Y axis
-            Random.Range(-1f, 1f) * wanderJitter);
+        // Calculate obstacle avoidance force
+        Vector3 avoidanceForce = obstacleAvoidance.Calculate();
 
-        wanderTarget.Normalize();
-        wanderTarget *= circleRadius;
+        // If the Seek script is active and enabled, and there's a food target
+        if (seek.isActiveAndEnabled && seek.targetGameObject != null)
+        {
+            // Use the Seek script to calculate the steering force towards the food
+            force += seek.Calculate() * seek.weight;
+        }
+        else
+        {
+            // Calculate wander force as before
+            Vector3 circleCenter = boid.velocity.normalized * circleDistance;
+            circleCenter.y = 0; // Restrict the Y axis
 
-        Vector3 wanderForce = circleCenter + wanderTarget;
-        wanderForce *= this.wanderForce;
+            wanderTarget += new Vector3(
+                Random.Range(-1f, 1f) * wanderJitter,
+                0, // Restrict the Y axis
+                Random.Range(-1f, 1f) * wanderJitter);
 
-        // Add obstacle avoidance force
-        Vector3 avoidanceForce = boid.GetComponent<ObstacleAvoidance>().Calculate();
+            wanderTarget.Normalize();
+            wanderTarget *= circleRadius;
 
-        // Weight the forces
-        wanderForce *= weight;
-        avoidanceForce *= weight;
+            force = circleCenter + wanderTarget;
+            force *= this.wanderForce;
+        }
 
-        // Apply the forces
-        boid.ApplyForce(wanderForce);
-        boid.ApplyForce(avoidanceForce);
+        // Apply the avoidance force
+        force += avoidanceForce;
 
-        // Return the total force
-        return wanderForce + avoidanceForce;
+        return force;
     }
 }

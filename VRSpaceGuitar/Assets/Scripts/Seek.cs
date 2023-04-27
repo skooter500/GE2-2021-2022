@@ -8,6 +8,7 @@ public class Seek : SteeringBehaviour
 {
     public GameObject targetGameObject = null;
     public Vector3 target = Vector3.zero;
+    public float detectionRadius = 5.0f;
 
     public void OnDrawGizmos()
     {
@@ -24,11 +25,39 @@ public class Seek : SteeringBehaviour
     
     public override Vector3 Calculate()
     {
-        return boid.SeekForce(target);    
+        if (targetGameObject != null)
+        {
+            float distance = Vector3.Distance(transform.position, target);
+            if (distance <= detectionRadius)
+            {
+                return boid.SeekForce(target);
+            }
+        }
+        return Vector3.zero;
     }
 
     public void Update()
     {
+        FindClosestFoodWithTag();
+    }
+
+    private void FindClosestFoodWithTag()
+    {
+        GameObject[] foodObjects = GameObject.FindGameObjectsWithTag("Food");
+        float closestDistance = detectionRadius;
+        GameObject closestFood = null;
+
+        foreach (GameObject food in foodObjects)
+        {
+            float distance = Vector3.Distance(transform.position, food.transform.position);
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closestFood = food;
+            }
+        }
+
+        targetGameObject = closestFood;
         if (targetGameObject != null)
         {
             target = targetGameObject.transform.position;
