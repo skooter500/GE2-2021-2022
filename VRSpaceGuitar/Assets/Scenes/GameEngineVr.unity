@@ -1168,6 +1168,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2010660589}
   - component: {fileID: 2010660590}
+  - component: {fileID: 2010660594}
+  - component: {fileID: 2010660593}
+  - component: {fileID: 2010660592}
+  - component: {fileID: 2010660591}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -1226,6 +1230,92 @@ MonoBehaviour:
   - {fileID: 7052187582962208608, guid: ff88835dd136c7f49a8ec6a0da42efb9, type: 3}
   - {fileID: 1485089677921388130, guid: 3b8f77731c9b2f54690c494c5606d99c, type: 3}
   CharContainer: {fileID: 2010660587}
+--- !u!114 &2010660591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010660587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d600be5bd19ab6e47b305858a8eebfae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  excludedTag: Food
+  scale: 4
+  forwardFeelerDepth: 30
+  sideFeelerDepth: 15
+  frontFeelerUpdatesPerSecond: 10
+  sideFeelerUpdatesPerSecond: 5
+  feelerRadius: 2
+  forceType: 0
+  mask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2010660592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010660587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169f0bb45e7bbe94c8f2b332d48de917, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
+  detectionRadius: 5
+--- !u!114 &2010660593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010660587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307c9169a648ab0459ae9ba94ad0669e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  foodTag: Food
+  circleDistance: 10
+  circleRadius: 5
+  wanderJitter: 1
+  wanderForce: 1
+  seek: {fileID: 0}
+  obstacleAvoidance: {fileID: 0}
+--- !u!114 &2010660594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010660587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5181d4f8a02696c48a61e1bbed6ae1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: {x: 0, y: 0, z: 0}
+  acceleration: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  mass: 1
+  damping: 0.01
+  banking: 0.1
+  maxSpeed: 1
+  maxForce: 10
 --- !u!1001 &365283636806468152
 PrefabInstance:
   m_ObjectHideFlags: 0
