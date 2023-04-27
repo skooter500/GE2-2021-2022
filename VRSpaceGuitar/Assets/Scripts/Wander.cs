@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Wander : SteeringBehaviour
 {
+    public string foodTag = "Food";
     public float circleDistance = 10f;
     public float circleRadius = 5f;
     public float wanderJitter = 1f;
@@ -55,5 +56,15 @@ public class Wander : SteeringBehaviour
         force += avoidanceForce;
 
         return force;
+    }
+
+    public void OnCollisionEnter(Collider other)
+    {
+        Debug.Log("Collision Triggered");
+        //if object has tab Food destroy object
+        if (other.gameObject.CompareTag(foodTag))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
