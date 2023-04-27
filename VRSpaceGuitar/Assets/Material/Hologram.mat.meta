@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:VRSpaceGuitar/Assets/Material/Hologram.mat.meta
 guid: 206ba2f8625021045b679bcf5adb59f8
+========
+guid: 7e4f5cb054de9924899bf7c9d97a8bea
+>>>>>>>> Maciej:VRSpaceGuitar/Assets/GrassFlowers/Textures/Ground/Materials/Grass01_BigUV.mat.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000

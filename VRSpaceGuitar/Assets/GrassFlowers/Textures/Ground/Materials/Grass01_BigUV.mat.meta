@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:VRSpaceGuitar/Assets/GrassFlowers/Textures/Ground/Materials/Grass01_BigUV.mat.meta
 guid: 7e4f5cb054de9924899bf7c9d97a8bea
+========
+guid: 3119e33c88492ca48929b103e3f07cab
+>>>>>>>> Maciej:VRSpaceGuitar/Assets/GrassFlowers/Textures/GrassFlowers/New Terrain Material.mat.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
