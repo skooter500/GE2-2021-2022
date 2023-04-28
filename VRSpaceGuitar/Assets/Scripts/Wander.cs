@@ -13,9 +13,6 @@ public class Wander : SteeringBehaviour
     private Vector3 wanderTarget;
     public Seek seek;
     public ObstacleAvoidance obstacleAvoidance;
-<<<<<<< Updated upstream
-
-=======
     private Dictionary<string, List<GameObject>> collectedBodyParts = new Dictionary<string, List<GameObject>>();
     public Transform bodyPartContainer; // The container for attached body parts
     public AudioSource Player;
@@ -25,7 +22,6 @@ public class Wander : SteeringBehaviour
     public GameObject oldBodyArms;
     public GameObject oldBodyLegs;
     public GameObject CharContainer;
->>>>>>> Stashed changes
     void Start()
     {
         wanderTarget = Random.insideUnitSphere * circleRadius;
@@ -70,7 +66,7 @@ public class Wander : SteeringBehaviour
         return force;
     }
 
-    public void OnCollisionEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         Debug.Log("Collision Triggered");
         //if object has tab Food destroy object
@@ -79,8 +75,6 @@ public class Wander : SteeringBehaviour
             Destroy(other.gameObject);
         }
     }
-<<<<<<< Updated upstream
-=======
 
     void EatFood(string bodyPart, GameObject prefab)
     {
@@ -161,14 +155,10 @@ public class Wander : SteeringBehaviour
             newBodyPart.transform.localRotation = Quaternion.identity;
             Destroy(oldBodyLegs);
         }
-
-
-
     }
 
     public void playChord()
     {
         Player.Play();
     }
->>>>>>> Stashed changes
 }
