@@ -132,7 +132,11 @@ GameObject:
   - component: {fileID: 600264488715922214}
   m_Layer: 0
   m_Name: creature  1
+<<<<<<< Updated upstream
   m_TagString: Untagged
+=======
+  m_TagString: Chest
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

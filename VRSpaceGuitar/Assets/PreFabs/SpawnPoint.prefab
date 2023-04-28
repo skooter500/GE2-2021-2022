@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -9159412294040071663}
   m_Layer: 0
   m_Name: SpawnPoint
-  m_TagString: Untagged
+  m_TagString: Body
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
   mass: 1
   damping: 0.01
   banking: 0.1
-  maxSpeed: 1
+  maxSpeed: 5
   maxForce: 10
 --- !u!114 &4907616196767554789
 MonoBehaviour:
@@ -78,6 +78,13 @@ MonoBehaviour:
   wanderForce: 1
   seek: {fileID: 0}
   obstacleAvoidance: {fileID: 0}
+  bodyPartContainer: {fileID: 0}
+  Player: {fileID: 0}
+  oldBodyHead: {fileID: 0}
+  oldBodyChest: {fileID: 0}
+  oldBodyArms: {fileID: 0}
+  oldBodyLegs: {fileID: 0}
+  CharContainer: {fileID: 4117180033837479640}
 --- !u!114 &2674562065260924327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,7 +118,6 @@ MonoBehaviour:
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  excludedTag: Food
   scale: 4
   forwardFeelerDepth: 30
   sideFeelerDepth: 15

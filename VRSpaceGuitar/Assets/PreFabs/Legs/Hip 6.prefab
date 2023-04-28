@@ -900,7 +900,11 @@ GameObject:
   - component: {fileID: 6266528803593812907}
   m_Layer: 0
   m_Name: Hip 6
+<<<<<<< Updated upstream
   m_TagString: Untagged
+=======
+  m_TagString: Legs
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

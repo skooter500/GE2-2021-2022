@@ -19,7 +19,7 @@ public class SpawnerScript : MonoBehaviour
     void Start()
     { 
         var NumSelect= 0;
-        NumSelect  = Random.Range(0, 9);
+        NumSelect  = Random.Range(1, 9);
         for(int i=0;i<NumSelect;i++)
         {
             SpawnCharacter();

@@ -15,7 +15,11 @@ GameObject:
   - component: {fileID: -3157955392192235851}
   m_Layer: 0
   m_Name: Sphere
+<<<<<<< Updated upstream
   m_TagString: Untagged
+=======
+  m_TagString: head
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,7 +113,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2a6dcf97ce3ca684b9fb5d4f4903f6c8, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

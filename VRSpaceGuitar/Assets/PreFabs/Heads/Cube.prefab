@@ -15,7 +15,11 @@ GameObject:
   - component: {fileID: -2775600850511796}
   m_Layer: 0
   m_Name: Cube
+<<<<<<< Updated upstream
   m_TagString: Untagged
+=======
+  m_TagString: head
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,7 +113,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7a6a2b368b4bb6149848b705e328fdf5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
